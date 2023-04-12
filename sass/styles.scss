@@ -1,0 +1,31 @@
+$color-fondo: black;
+$color-primario: teal;
+$color-texto: white;
+
+$espaciado-estandar: 10px;
+$espaciado-doble: 20px;
+
+$espacio-afuera-normal: 40px;
+$espacio-afuera-doble: 80px;
+
+$fuente-normal: 1.2em;
+$fuente-pequena: 0.8em;
+$fuente-grande: 2em;
+
+$tipografia-general: arial, verdana, sans-serif;
+$tipografia-alternativa: 'Times New Roman', Times, serif;
+
+
+
+
+body {
+    color: $color-texto;
+    font-family: $tipografia-general;
+    background: $color-primario;
+    display: grid;
+    height: 100vh;
+    grid-template-rows: auto 1fr auto;
+  }
+
+  @import "header";
+  @import "footer";
